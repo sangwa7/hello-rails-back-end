@@ -17,22 +17,30 @@ Make sure you have Ruby on Rails set up properly on your computer
 Clone or download this repo on your machine
 Enter project directory
 Development Database
+
 # Install dependencies
 bundle install
 # Create user
+
 sudo -u postgres createuser -e myPassword -s
+
 # Create the database
 rake db:create
+
 # Run database Migration
 rails db:migrate
+
 # Run the server
 rails s
-Author
-👤 Ezekiel Utshudi Eteta
 
-GitHub: @EzekielUtshudi
-Twitter: @UtshudiEzekiel
-LinkedIn: @UtshudiEzekiel
+## Author
+
+👤 **Sangwa Didier**
+
+- GitHub: [Didier Sangwa](https://github.com/sangwa7)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
+- LinkedIn: [Didier Sangwa](https://www.linkedin.com/in/didier-sangwa)
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
